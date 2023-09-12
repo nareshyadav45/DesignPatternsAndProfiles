@@ -1,0 +1,18 @@
+package com.design.pattern.creational.FactoryDesignpattern;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Hashh {
+	public static void main(String[] args) {
+		
+		Map<String, Integer> hash=new HashMap<>();
+		hash.put("Naresh", 45);
+		hash.put("Sanghemsh", 55);
+		hash.put("Saurabh", 65);
+		hash.forEach((k,v)->System.out.println(k+" value"+v));
+				
+		
+	}
+
+}

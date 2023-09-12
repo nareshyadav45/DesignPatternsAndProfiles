@@ -1,0 +1,47 @@
+package com.design.pattern.creational.singleton;
+
+public class Users {
+	private int sno;
+	private String name;
+	private String classNum;
+	private int rollNum;
+	public int getSno() {
+		return sno;
+	}
+	public void setSno(int sno) {
+		this.sno = sno;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getClassNum() {
+		return classNum;
+	}
+	public void setClassNum(String classNum) {
+		this.classNum = classNum;
+	}
+	public int getRollNum() {
+		return rollNum;
+	}
+	public void setRollNum(int rollNum) {
+		this.rollNum = rollNum;
+	}
+	public Users(int sno, String name, String classNum, int rollNum) {
+		super();
+		this.sno = sno;
+		this.name = name;
+		this.classNum = classNum;
+		this.rollNum = rollNum;
+	}
+	public Users() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+
+}

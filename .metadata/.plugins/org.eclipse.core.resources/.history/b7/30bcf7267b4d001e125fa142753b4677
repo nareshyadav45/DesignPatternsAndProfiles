@@ -1,0 +1,57 @@
+package com.design.pattern.creational.singleton;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
+public class SingleTonTest {
+	public static void main(String[] args) {
+		
+//		Single singleInstnace = Single.getSingleInstnace();
+//		System.out.println(singleInstnace.hashCode());
+//		Single singleInstnace2 = Single.getSingleInstnace();
+//		System.out.println(singleInstnace2.hashCode());
+//		
+//		
+//		System.out.println(EagerSinleTon.getInstanceEager().hashCode());
+//		System.out.println(EagerSinleTon.getInstanceEager().hashCode());
+		
+		Single s1 = Single.getSingleInstnace();
+		System.out.println(s1.hashCode());
+		
+		try {
+			Constructor<Single> constructor = Single.class.getDeclaredConstructor();
+			constructor.setAccessible(true);
+			try {
+				Single s2 = constructor.newInstance();
+				System.out.println(s2.hashCode());
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalArgumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InvocationTargetException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			
+			
+			
+		} catch (NoSuchMethodException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+
+}

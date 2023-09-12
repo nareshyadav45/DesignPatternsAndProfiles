@@ -1,0 +1,17 @@
+package com.design.pattern.creational.singleton;
+
+public class SingleTonTest {
+	public static void main(String[] args) {
+		
+		Single singleInstnace = Single.getSingleInstnace();
+		System.out.println(singleInstnace.hashCode());
+		Single singleInstnace2 = Single.getSingleInstnace();
+		System.out.println(singleInstnace2.hashCode());
+		
+		
+		System.out.println(EagerSinleTon.getInstanceEager().hashCode());
+		System.out.println(EagerSinleTon.getInstanceEager().hashCode());
+		
+	}
+
+}
