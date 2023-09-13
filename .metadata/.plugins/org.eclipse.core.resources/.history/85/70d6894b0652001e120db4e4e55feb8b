@@ -1,0 +1,8 @@
+package com.design.pattern.creational.builder;
+
+public class Computer {
+	private String name;
+	private String ram;
+	private String cpu;
+
+}

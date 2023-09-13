@@ -1,0 +1,12 @@
+package com.design.pattern.creational.builder;
+
+public class Computer {
+	//required
+	private String name;
+	private String ram;
+	private String cpu;
+
+	//optional
+	private boolean isBluetoothEnabled;
+	private boolean isWifiEnabled;
+}

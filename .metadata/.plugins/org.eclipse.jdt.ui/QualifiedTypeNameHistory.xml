@@ -11,4 +11,12 @@
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.FactoryDesignpattern.FactoryPattern"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.Employee"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.WebDeveloper"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.EmployeeAbstractFactoryDesign"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.AndriodDeveloper"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.WebDevloperFactory"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.FactoryDesign"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.AndroidDeveloperFactory"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.builder.Computer"/>
 </qualifiedTypeNameHistroy>
