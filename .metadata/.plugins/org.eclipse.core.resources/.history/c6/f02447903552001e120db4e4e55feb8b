@@ -1,0 +1,6 @@
+package com.design.pattern.creational.prototype;
+
+public class NetWorkConnection {
+	private String 
+
+}

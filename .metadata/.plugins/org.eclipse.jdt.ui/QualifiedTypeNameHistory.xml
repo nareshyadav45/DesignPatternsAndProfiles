@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.singleton.Single"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.FactoryDesignpattern.FactoryPattern"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.Employee"/>
@@ -19,4 +18,10 @@
     <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.FactoryDesign"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.abstractfactorydesign.pattern.AndroidDeveloperFactory"/>
     <fullyQualifiedTypeName name="com.design.pattern.creational.builder.Computer"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.builder.Computer.ComputerBuilder"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.builder.User"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.builder.User.UserBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="com.design.pattern.creational.prototype.NetWorkConnection"/>
 </qualifiedTypeNameHistroy>

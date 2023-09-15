@@ -1,0 +1,19 @@
+package com.design.pattern.creational.prototype;
+
+public class PrortoClient {
+	public static void main(String[] args) {
+		NetWorkConnection netWorkConnection1 = new NetWorkConnection();
+		netWorkConnection1.setIp("192.65.90");
+		netWorkConnection1.getImportantData();
+		
+		System.out.println(netWorkConnection1);
+		
+		try {
+			NetWorkConnection netWorkConnection2 = (NetWorkConnection)  netWorkConnection1.Clonable();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

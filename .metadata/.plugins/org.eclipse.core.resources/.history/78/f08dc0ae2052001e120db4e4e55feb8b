@@ -1,0 +1,13 @@
+package com.design.pattern.creational.builder;
+
+public class UserTest {
+public static void main(String[] args) {
+	User build = new User.UserBuilder("naresh", "123").build();
+	System.out.println(build);
+	
+	
+	
+	
+	
+}
+}
