@@ -1,0 +1,9 @@
+package com.design.pattern.Behavioural.Iterator;
+
+public class User {
+
+	private String name;
+	private String userId;
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.design.pattern.Behavioural.Iterator;
+
+public class MyIteratorImpl implements MyIterator {
+
+	@Override
+	public Boolean hasNext() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
