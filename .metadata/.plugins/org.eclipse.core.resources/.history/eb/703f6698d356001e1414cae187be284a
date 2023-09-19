@@ -1,0 +1,20 @@
+package com.design.pattern.Behavioural.observer;
+
+public class ObserverTest {
+	public static void main(String[] args) {
+		
+		Observer subscriber=new Subsciber("Naresh");
+		Observer subscriber2=new Subsciber("Chotu");
+		
+		Subject channel=new YouTube();
+		channel.subscribe(subscriber);
+		channel.subscribe(subscriber2);
+		
+		channel.updates("Java Design Patterns");
+		
+		
+		
+		
+	}
+
+}

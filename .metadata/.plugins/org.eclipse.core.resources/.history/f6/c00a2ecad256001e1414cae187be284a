@@ -1,0 +1,5 @@
+package com.design.pattern.Behavioural.observer;
+
+public class Subsciber {
+
+}

@@ -1,0 +1,34 @@
+package com.design.pattern.Behavioural.observer;
+
+public class ObserverTest {
+	public static void main(String[] args) {
+		
+		Observer subscriber=new Subsciber("Naresh");
+		Observer subscriber2=new Subsciber("Chotu");
+		
+		Subject channel=new YouTube();
+		channel.subscribe(subscriber);
+		channel.subscribe(subscriber2);
+		
+		channel.updates("Java Design Patterns");
+		channel.updates("Java Spring boot profiles");
+		
+		System.out.println("........................");
+		
+		while(true) {
+			System.out.println("Enter 1 for new updates");
+			System.out.println("Enter 2 for add subscriber");
+			System.out.println("Enter 3 for exit from application");
+			System.out.println("Enter 4 for unsubscribe an user");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

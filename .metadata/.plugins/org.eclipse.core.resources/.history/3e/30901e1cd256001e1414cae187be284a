@@ -1,0 +1,23 @@
+package com.design.pattern.Behavioural.observer;
+
+public class YouTube implements Subject {
+
+	@Override
+	public void subscribe(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void unsubscribe(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updates(String updateName) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

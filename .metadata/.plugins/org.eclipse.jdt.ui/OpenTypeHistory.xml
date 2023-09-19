@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=DesignPatterns/src&lt;com.design.pattern.creational.abstractfactorydesign.pattern{Employee.java[Employee" modifiers="513" timestamp="1694502019869"/>
+    <typeInfo handle="=DesignPatterns/src&lt;com.structural.design.pattern.Adapter{AdvanceMediaPlayer.java[AdvanceMediaPlayer" modifiers="513" timestamp="1694786922561"/>
+    <typeInfo handle="=DesignPatterns/src&lt;com.structural.design.pattern.Adapter{MediaPlayer.java[MediaPlayer" modifiers="513" timestamp="1694786840319"/>
 </typeInfoHistroy>
