@@ -20,7 +20,6 @@ public class ObserverTest {
 		channel.updates("Java Spring boot profiles");
 		
 		System.out.println("........................");
-		System.out.println("...........design Pattern");
 		
 		while(true) {
 			System.out.println("Enter 1 for new updates");
@@ -56,6 +55,6 @@ public class ObserverTest {
 			
 		}
 		
-			}
+			
 
 }
