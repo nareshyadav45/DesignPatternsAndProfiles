@@ -16,11 +16,5 @@ public static void main(String[] args) {
 		User next = (User)myIterator.next();
 		System.out.println(next.getName());
 	}
-	
-	
-	
-	
-	
-	
 }
 }

@@ -21,7 +21,7 @@ public class MyIteratorImpl implements MyIterator {
 			return true;
 		
 	}
-
+	
 	@Override
 	public Object next() {
 		User user = list.get(position);
